@@ -1,0 +1,20 @@
+{
+  "name": "projectmanagementsystem",
+  "version": "1.0.0",
+  "description": "My first project management application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "Backend",
+    "API",
+    "Creation"
+  ],
+  "author": "Kaushik Barik",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
