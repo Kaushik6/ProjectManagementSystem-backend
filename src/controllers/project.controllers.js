@@ -302,7 +302,7 @@ const addProjectMember = asyncHandler(async(req, res) => {
         .json(
             new ApiResponse(
                 201,
-                {},
+                addmember,
                 "Member added Successfully"
             )
         )
