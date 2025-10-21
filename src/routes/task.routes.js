@@ -12,7 +12,7 @@ import {
 import { createTaskValidator, createSubTaskValidator  } from "../validators/index.js";
 import { verifyJWT, validateProjectPermission } from "../middlewares/auth.middleware.js";
 import { validate } from "../middlewares/validator.middleware.js";
-import { UserRolesEnum, TaskStatusEnum, AvailableTaskStatues, AvailableUserRole } from "../utils/constants.js";
+import { UserRolesEnum, AvailableUserRole } from "../utils/constants.js";
 
 const router = Router()
 

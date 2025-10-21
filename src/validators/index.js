@@ -115,6 +115,14 @@ const createSubTaskValidator = () => {
     ]
 }
 
+const createNoteValidator = () => {
+    return [
+        body("content")
+            .notEmpty()
+            .withMessage("Content is required")
+    ]
+}
+
 
 export { 
     userRegisterValidator, 
@@ -125,5 +133,6 @@ export {
     createProjectValidator,
     addMemeberToProjectValidator,
     createTaskValidator,
-    createSubTaskValidator
+    createSubTaskValidator,
+    createNoteValidator
 }
